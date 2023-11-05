@@ -1,2 +1,0 @@
-# Hola
->SELECT name FROM 
