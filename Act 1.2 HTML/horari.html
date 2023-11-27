@@ -1,57 +1,68 @@
 <html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Horari</title>
+        <link rel="stylesheet" type="text/css" href="estils.css"> 
+    </head>   
     <body>
-        
-    
-    <table border="1">
-    <tr>
-        <td>DAW intensiu</td>
-        <td style="background-color: darkgray;">Dilluns</td>
-        <td style="background-color: darkgray;">Dimarts</td>
-        <td style="background-color: darkgray;">Dimecres</td>
-        <td style="background-color: darkgray;">Dijous</td>
-        <td style="background-color: darkgray;">Divendres</td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: darkgray;">15:30-16:25</td>
-        <td align="center" rowspan="2" style="background-color: crimson;">Llenguatge de Marques</td>
-        <td align="center" style="background-color: chartreuse;">Bases de Dades</td>
-        <td align="center" style="background-color: blue;">Programació</td>
-        <td align="center" rowspan="2" style="background-color: blue;">Programació</td>
-        <td align="center" rowspan="3" style="background-color: chartreuse;">Bases de Dades</td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: darkgray;">16:25-17:20</td>
-        <td align="center" style="background-color: blueviolet;">FOL</td>
-        <td align="center" style="background-color: blueviolet;">FOL</td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: darkgray;">17:20-18:15</td>
-        <td align="center" style="background-color: blue;">Programació</td>
-        <td align="center" style="background-color: gold;">Sistemes Informàtics</td>
-        <td align="center" style="background-color: gold;">Sistemes Informàtics</td>
-        <td align="center" style="background-color: coral;">Ent. Desenvolupament</td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: darkgray;">18:15-18:45</td>
-        <td colspan="5" align="center">Pati</td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: darkgray;">18:45-19:40</td>
-        <td align="center" style="background-color: blue;">Programació</td>
-        <td align="center" style="background-color: coral;">Ent. Desenvolupament</td>
-        <td align="center" rowspan="3" style="background-color: crimson;">Llenguatges de Marques</td>
-        <td align="center" style="background-color: coral;">Ent. Desenvolupament</td>
-        <td align="center" rowspan="3" style="background-color: gold;">Sistemes Informàtics</td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: darkgray;">19:40-20:35</td>
-        <td align="center" rowspan="2" style="background-color: chartreuse;">Bases de Dades</td>
-        <td align="center" rowspan="2" style="background-color: blue;">Programació</td>
-        <td align="center" rowspan="2" style="background-color: chartreuse;">Bases de Dades</td>
-    </tr>
-    <tr>
-        <td align="center" style="background-color: darkgray;">20:35-21:30</td>
-    </tr>
-</table>
-</body>
+        <div id="principal"></div>
+        <table>
+        <tr>
+            <td>DAW intensiu</td>
+            <td class="dates">Dilluns</td>
+            <td class="dates">Dimarts</td>
+            <td class="dates">Dimecres</td>
+            <td class="dates">Dijous</td>
+            <td class="dates">Divendres</td>
+        </tr>
+        <tr>
+            <td id="angels" class="dates">15:30-16:25</td>
+            <td rowspan="2" class="llm">Llenguatge de Marques</td>
+            <td id ="altre" class="databases">Bases de Dades</td>
+            <td class="programació">Programació</td>
+            <td rowspan="2" class="programació">Programació</td>
+            <td rowspan="3 " class="databases">Bases de Dades</td>
+        </tr>
+        <tr>
+            <td class="dates">16:25-17:20</td>
+            <td class="fol">FOL</td>
+            <td class="fol">FOL</td>
+        </tr>
+        <tr>
+            <td class="dates">17:20-18:15</td>
+            <td class="programació">Programació</td>
+            <td class="sist">Sistemes Informàtics</td>
+            <td class="sist">Sistemes Informàtics</td>
+            <td class="entorn">Ent. Desenvolupament</td>
+        </tr>
+        <tr>
+            <td class="dates">18:15-18:45</td>
+            <td colspan="5">Pati</td>
+        </tr>
+        <tr>
+            <td class="dates">18:45-19:40</td>
+            <td class="programació">Programació</td>
+            <td class="entorn">Ent. Desenvolupament</td>
+            <td rowspan="3" class="llm">Llenguatges de Marques</td>
+            <td class="entorn">Ent. Desenvolupament</td>
+            <td rowspan="3" class="sist">Sistemes Informàtics</td>
+        </tr>
+        <tr>
+            <td class="dates">19:40-20:35</td>
+            <td rowspan="2" class="databases">Bases de Dades</td>
+            <td rowspan="2" class="programació">Programació</td>
+            <td rowspan="2" class="databases">Bases de Dades</td>
+        </tr>
+        <tr>
+            <td class="dates">20:35-21:30</td>
+        </tr>
+        </table>
+        <div>
+            <a href="a.html">A</a>
+            <a>B</a>  
+        </div>
+        <a>C</a>
+        <a href="d.html">D</a>
+        <p href="3">hola</p>
+    </body>
 </html>

@@ -1,0 +1,35 @@
+.dates {
+    background-color: darkgray;
+}
+.databases {
+    background-color: chartreuse;
+}
+.llm {
+    background-color: crimson;
+}
+.programació {
+    background-color: blue;
+}
+.fol {
+    background-color: blueviolet;
+}
+.sist {
+    background-color: gold;
+}
+.entorn {
+    background-color: coral;
+}
+#angels{
+    color:fuchsia;
+}
+td {
+    text-align: center;
+}
+table {
+    border: 3px solid black;
+}
+td {
+    border: 3px solid black;
+}
+a[href]{color: red;}
+
